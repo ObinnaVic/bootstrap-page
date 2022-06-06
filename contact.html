@@ -19,10 +19,8 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav ms-auto">
-                        <a class="nav-link active" aria-current="page" href="index.html">Landing Page</a>
-                        <a class="nav-link" href="about.html">About Us</a>
-                        <a class="nav-link" href="#">Home</a>
-                        <a class="nav-link disabled">Dashboard</a>
+                            <a class="nav-link active" aria-current="page" href="index.html">Home Page</a>
+                            <a class="nav-link active" href="about.html">About Us</a>
                         </div>
                     </div>
                 </div>
@@ -33,9 +31,9 @@
                 <div class="col-lg-6 flex-column d-flex justify-content-center align-items-center">
                     <h2 class="head-color">CONTACT US</h2>
                     <form action="" class="d-inline-flex p-2 flex-column">
-                        <input class="bg-info bg-opacity-25 rounded-pill mb-3 p-2" type="text" placeholder="Name"><br>
-                        <input class="bg-info bg-opacity-25 rounded-pill mb-3 p-2" type="email" placeholder="Email"><br>
-                        <textarea class="bg-info bg-opacity-25 rounded-4 mb-3 p-2" name="text" id="" cols="30" rows="5" placeholder="Message"></textarea>
+                        <input class="bg-light bg-opacity-25 mb-3 p-2" type="text" placeholder="Name"><br>
+                        <input class="bg-light bg-opacity-25 mb-3 p-2" type="email" placeholder="Email"><br>
+                        <textarea class="bg-light bg-opacity-25 mb-3 p-2" name="text" id="" cols="30" rows="5" placeholder="Message"></textarea>
                         <button class="btn btn-primary mt-3">Submit</button>
                     </form>
                 </div>
@@ -47,15 +45,88 @@
         <div class="container text-center  bg-primary bg-opacity-10 mt-5 p-5">
             <h2 class="text-primary">WANT TO REACH OUT TO US FOR MORE BUSINESS DEALS AND PARTNERSHIPS?</h2>
             <p class="text-dark">Help us fill out this form and we will be sure to get in touch with you</p>
-            <form action="">
-                FIRSTNAME<br><input class="bg-info bg-opacity-25" type="text"><br>
-                LASTNAME<br><input class="bg-info bg-opacity-25" type="text"><br>
-                COMPANY NAME<br><input class="bg-info bg-opacity-25" type="text"><br>
-                EMAIL<br><input class="bg-info bg-opacity-25" type="email"><br>
-                COMPANY ADDRESS<br><input class="bg-info bg-opacity-25" type="text"><br>
-                IDEAS<br><textarea  class="bg-info bg-opacity-25" name="ideas" id="" cols="30" rows="5" placeholder="Tell us your unique ideas"></textarea>
-
-            </form>
+            <form class="row g-3">
+                <div class="col-md-6">
+                  <label for="inputEmail4" class="form-label text-dark">FIRST NAME</label>
+                  <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputPassword4" class="form-label text-dark">LAST NAME</label>
+                  <input type="password" class="form-control" id="inputPassword4">
+                </div>
+                <div class="col-12">
+                  <label for="inputAddress" class="form-label text-dark">COMPANY EMAIL</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="@gmail.com">
+                </div>
+                <div class="col-12">
+                  <label for="inputAddress2" class="form-label text-dark">COMPANY NAME</label>
+                  <input type="text" class="form-control" id="inputAddress2">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputCity" class="form-label text-dark">ADDRESS</label>
+                  <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="col-md-4">
+                  <label for="inputState" class="form-label text-dark">State</label>
+                  <select id="inputState" class="form-select">
+                    <option disabled selected>--Select State--</option>
+                    <option value="Abia">Abia</option>
+                    <option value="Adamawa">Adamawa</option>
+                    <option value="Akwa Ibom">Akwa Ibom</option>
+                    <option value="Anambra">Anambra</option>
+                    <option value="Bauchi">Bauchi</option>
+                    <option value="Bayelsa">Bayelsa</option>
+                    <option value="Benue">Benue</option>
+                    <option value="Borno">Borno</option>
+                    <option value="Cross River">Cross River</option>
+                    <option value="Delta">Delta</option>
+                    <option value="Ebonyi">Ebonyi</option>
+                    <option value="Edo">Edo</option>
+                    <option value="Ekiti">Ekiti</option>
+                    <option value="Enugu">Enugu</option>
+                    <option value="FCT">Federal Capital Territory</option>
+                    <option value="Gombe">Gombe</option>
+                    <option value="Imo">Imo</option>
+                    <option value="Jigawa">Jigawa</option>
+                    <option value="Kaduna">Kaduna</option>
+                    <option value="Kano">Kano</option>
+                    <option value="Katsina">Katsina</option>
+                    <option value="Kebbi">Kebbi</option>
+                    <option value="Kogi">Kogi</option>
+                    <option value="Kwara">Kwara</option>
+                    <option value="Lagos">Lagos</option>
+                    <option value="Nasarawa">Nasarawa</option>
+                    <option value="Niger">Niger</option>
+                    <option value="Ogun">Ogun</option>
+                    <option value="Ondo">Ondo</option>
+                    <option value="Osun">Osun</option>
+                    <option value="Oyo">Oyo</option>
+                    <option value="Plateau">Plateau</option>
+                    <option value="Rivers">Rivers</option>
+                    <option value="Sokoto">Sokoto</option>
+                    <option value="Taraba">Taraba</option>
+                    <option value="Yobe">Yobe</option>
+                    <option value="Zamfara">Zamfara</option>
+                  </select>
+                </div>
+                <div class="col-md-2">
+                  <label for="inputZip" class="form-label text-dark">Zip</label>
+                  <input type="text" class="form-control" id="inputZip">
+                </div>
+                <div class="col-12">
+                    <div class="checkbox">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">CLICK TO CONFIRM DETAILS
+                    </div>
+                  <div class="form-check">
+                    <label class="form-check-label" for="gridCheck">
+                      Thank You for Your Details
+                    </label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary">SUMBIT</button>
+                </div>
+              </form>
         </div>
         <div class="container mt-5 mb-lg-3">
             <div style="background-color: #96b2c5;">
